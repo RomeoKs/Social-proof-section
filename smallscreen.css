@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Spartan;
+    src: url("https://fonts.googleapis.com/css?family=Spartan:400,500,700");
+  }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body {
+      background-image: url(..//images/bg-pattern-top-desktop.svg), url(..//images/bg-pattern-bottom-desktop.svg);
+      background-position: top left, bottom right;
+      background-repeat: no-repeat, no-repeat;
+      font-size: 15px;
+      font-family: 'Spartan', sans-serif;
+  }
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.subH1 {
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+.starbox1 {
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+    color: hsl(300, 43%, 22%);
+    width: 500px;
+    float: right;
+    margin-top: 0px;
+
+}

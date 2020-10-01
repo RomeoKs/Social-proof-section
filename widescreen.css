@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Spartan;
+    src: url("https://fonts.googleapis.com/css?family=Spartan:400,500,700");
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    margin-top: 10rem;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .parentbox {
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+    position: relative;
+  }
+  body {
+      background-image: url(..//images/bg-pattern-top-desktop.svg), url(..//images/bg-pattern-bottom-desktop.svg);
+      background-position: top left, bottom right;
+      background-repeat: no-repeat, no-repeat;
+      font-size: 15px;
+      font-family: 'Spartan', sans-serif;
+  }
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.subH1 {
+    left: 150px;
+    margin-top: 10px;
+    line-height: 2rem;
+
+}
+
+.starbox1, .starbox2, .starbox3 {
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    padding: 22px 20px 10px 20px;
+    color: hsl(300, 43%, 22%);
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    border-radius: 10px;
+
+}
+.starbox1 {
+  top: 10px;
+  right: 120px;
+}
+.star {
+ position: absolute;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-left: 20px;
+}
+.star img {
+  padding-left: 10px;
+}
+.starbox2 {
+  top: 90px;
+  right: 80px;
+}
+
+.starbox3 {
+  top: 170px;
+  right: 40px;
+}
+.text__boxes {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.text__box1, .text__box2, .text__box3 {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  font-size: 15px;
+  position: relative;
+  top: 80px;
+}
+.text__boxes p {
+  padding: 110px 40px 50px 40px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5rem;
+}
+
+.text__box2 {
+  top: 100px;
+}
+.text__box3 {
+  top: 120px;
+}
+.photo_circle img {
+  border-radius: 50%;
+  width: 3rem;
+}
+.photo_circle {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 0rem;
+  float: left;
+}
+.buyer__name {
+  padding-right: 8rem;
+  padding-top: 2.5rem;
+  float: right;
+}
